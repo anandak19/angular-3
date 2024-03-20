@@ -1,0 +1,49 @@
+.header{
+    height: 94px;
+    padding: 0 32px;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100dvw; 
+    box-sizing: border-box;
+    z-index: 10; 
+}
+
+.brand-name{
+    background-color: #FFC21F;
+    font-size: 38px;
+    border-radius: 10px;
+    padding: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+ul li{
+    font-size: 18px;
+    margin-left: 12px;
+}
+
+ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 4px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+ul li a:hover,
+ul li a:active {
+    background-color: #FFC21F;
+    color: #000;
+}
